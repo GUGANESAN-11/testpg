@@ -108,7 +108,7 @@ for message in st.session_state.chat_session.history:
             st.write(message.parts[0].text)
 
 # Input field for user's message
-user_prompt = st.text_input("Ask Gemini-Pro...", key="input_box")
+user_prompt = st.text_input("Ask watsonX.AI", key="input_box")
 if user_prompt:
     # Add user's message to chat and display it
     st.image('sba_info_solutions_logo.jpg', width=50)
